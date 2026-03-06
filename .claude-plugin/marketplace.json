@@ -1,0 +1,11 @@
+{
+  "name": "boring-skills",
+  "display_name": "Boring Zoo Skills",
+  "version": "1.0.0",
+  "author": "Boring Zoo",
+  "description": "Claude Code skills for building a business around your worldview. Marketing, CRO, SEO, sales, growth, and strategy — all powered by the World Code framework.",
+  "repository": "https://github.com/MrPaulScrivens/Boring-Zoo",
+  "license": "MIT",
+  "categories": ["marketing", "copywriting", "seo", "cro", "growth"],
+  "keywords": ["world-code", "marketing", "copywriting", "cro", "seo", "sales", "growth", "strategy"]
+}
