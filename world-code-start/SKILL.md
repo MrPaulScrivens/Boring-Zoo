@@ -82,6 +82,10 @@ Then invoke `/world-creation`. (And after Creation, route to Crown, then Convers
 
 Read all seven files. Present a cohesive summary of their complete World Code — not just listing each element, but showing how they connect. Congratulate them on completing the framework.
 
+Then suggest:
+
+> Your World Code is complete. To put it into action, start a new session and try `/boring-content-strategy` — it'll use everything you've built here to create a content strategy that's aligned with your worldview, method, and offers.
+
 Then offer three options:
 1. **Refine an element** — "Which element feels off? (Voice, Climax, Method, Creation, Crown, Conversation, Crossing)" Then invoke the corresponding `/world-*` skill, which will detect the existing file and offer refine/fresh/keep.
 2. Generate an action plan based on their World Code

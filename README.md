@@ -49,6 +49,7 @@ Once your World Code exists, every other skill uses it automatically.
 | `boring-seo-article` | SEO articles from research to final draft |
 | `boring-human` | Strip AI patterns from any text |
 | `boring-remix` | Turn existing content into new formats |
+| `boring-youtube-mining` | Mine YouTube transcripts for content ideas |
 
 ### Convert Better
 

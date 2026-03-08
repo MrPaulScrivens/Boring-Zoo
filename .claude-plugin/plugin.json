@@ -15,6 +15,7 @@
     { "name": "boring-page-cro", "path": "./boring-page-cro" },
     { "name": "boring-programmatic-seo", "path": "./boring-programmatic-seo" },
     { "name": "boring-remix", "path": "./boring-remix" },
+    { "name": "boring-youtube-mining", "path": "./boring-youtube-mining" },
     { "name": "boring-schema-markup", "path": "./boring-schema-markup" },
     { "name": "boring-seo-article", "path": "./boring-seo-article" },
     { "name": "boring-seo-audit", "path": "./boring-seo-audit" },

@@ -24,6 +24,44 @@ If ANY file is missing, tell the user:
 
 The Bridge from `conversation.md` is your PRIMARY source for all content planning. Everything flows from it.
 
+### Check for High-Performing Content
+
+After loading the World Code files, check for a `content/hits/` folder organized by platform:
+
+```
+content/hits/
+├── twitter/
+├── email/
+├── instagram/
+├── linkedin/
+├── youtube/
+├── blog/
+└── ...
+```
+
+Each file is a copy-pasted piece of content that performed well. No required format — just the content itself, and optionally notes about why it worked (metrics, what landed, audience reaction) at the top or bottom of the file.
+
+**When `content/hits/` exists and has files:**
+
+Read all files in the folder and identify patterns across the winning content:
+
+- Common hooks/openings
+- Recurring themes, walls, or struggles
+- Tone and energy level
+- Length patterns
+- Content types that show up most
+- Which layers (1/2/3) the hits tend to emphasize
+
+Present a brief **"What's Working"** summary to the user before planning new content. Use these patterns to weight the content plan toward what resonates — more of what's hitting, less of what's not represented.
+
+**When `content/hits/` doesn't exist or is empty:**
+
+Mention it once:
+
+> "Tip: Save your best-performing content to `content/hits/[platform]/` and I'll learn from what's already working."
+
+Then continue normally.
+
 ---
 
 ## Content Comes from the Bridge
@@ -148,6 +186,23 @@ If they pick daily and haven't done it before, suggest starting with 3x/week and
 
 Their style should feel effortless, not performative.
 
+**Content Volume & Parameters:**
+Before generating any content plan, ask the user:
+
+1. "How many pieces of content do you want created?" (e.g., 5, 10, 30, a week's worth, a month's worth)
+2. "How long should each piece be?" — Give options based on their chosen platform:
+   - Short form: ~100-300 words (tweets, captions, carousels)
+   - Medium form: ~500-1000 words (newsletters, LinkedIn posts, blog posts)
+   - Long form: ~1500-3000 words (essays, deep-dive articles, scripts)
+   - Mixed — let me decide per piece
+3. "Any other parameters?" — Prompt for specifics like:
+   - Include CTAs? (link to offer, email signup, reply)
+   - Include hooks/headlines only, or full drafts?
+   - Specific walls or struggles to focus on, or spread across all?
+   - Specific content types to prioritize (e.g., mostly Goblin Teardowns, mostly How-Tos)?
+
+Use their answers to scope the output. Don't generate more than they asked for. If they say "a month's worth," calculate based on their chosen rhythm (e.g., 3x/week = ~12 pieces).
+
 ---
 
 ## Content Ecosystem
@@ -196,9 +251,11 @@ Connection points (ADHD, kids, lifestyle, personality) are bonuses that deepen t
 
 ## Output Format
 
-When creating a content plan, provide:
+### Planning Phase
 
-### 1. Bridge-Based Topic Map
+First, present the content plan overview to the user:
+
+#### 1. Bridge-Based Topic Map
 ```
 Wall 1: [Name]
 ├── Struggle 1 → [Content idea] (Type: [type], Layers: [1/2/3])
@@ -212,16 +269,81 @@ Wall 3: [Name]
 ├── ...
 ```
 
-### 2. Content Layers Check
+#### 2. Content Layers Check
 For each piece, confirm which layers it hits. Flag any long-form piece missing a layer.
 
-### 3. Content Ecosystem Flow
+#### 3. Content Ecosystem Flow
 Show how pieces connect: which short form feeds which long form, what the BVA covers, how email ties in.
 
-### 4. Weekly/Monthly Plan
+#### 4. Weekly/Monthly Plan
 Map content to their rhythm, distributed across walls. Ensure each wall gets regular coverage — don't over-index on one wall.
 
 **Apply the user's Voice (from world-code/voice.md) to all written output.**
+
+### Writing & Saving Phase
+
+After the user approves the plan, write each piece of content and **save every piece to its own file**, organized by platform.
+
+**File structure:**
+```
+content/
+├── email/
+│   ├── 2026-03-07-struggle-with-consistency.md
+│   ├── 2026-03-10-the-real-enemy.md
+│   └── ...
+├── twitter/
+│   ├── 2026-03-07-goblin-voice-not-ready.md
+│   └── ...
+├── instagram/
+│   ├── 2026-03-08-wall-1-carousel.md
+│   └── ...
+├── linkedin/
+│   ├── 2026-03-09-method-breakdown.md
+│   └── ...
+├── youtube/
+│   ├── 2026-03-07-full-bridge-overview.md
+│   └── ...
+└── blog/
+    ├── 2026-03-07-why-most-advice-fails.md
+    └── ...
+```
+
+**Rules:**
+- Create a `content/` directory in the project root if it doesn't exist
+- Create a subfolder for each platform the user is publishing to (use lowercase: `email`, `twitter`, `instagram`, `linkedin`, `youtube`, `blog`, `podcast`, `newsletter`)
+- One file per piece of content — never combine multiple pieces into one file
+- File names: `YYYY-MM-DD-slug.md` where the date is the planned publish date (based on their rhythm) and the slug is a short, descriptive kebab-case title
+- Each file should include frontmatter with metadata:
+  ```
+  ---
+  title: "The actual title/hook"
+  platform: twitter
+  wall: "Wall 1 Name"
+  struggle: "Specific struggle"
+  content_type: goblin-teardown
+  layers: [1, 2]
+  publish_date: 2026-03-07
+  status: draft
+  ---
+  ```
+- After saving, tell the user how many files were created and where they live
+
+### Create Hits Folder (First Time)
+
+At the end of a session, if `content/hits/` doesn't exist, offer to create the empty folder structure so the user can start populating it:
+
+```
+content/hits/
+├── twitter/
+├── email/
+├── instagram/
+├── linkedin/
+├── youtube/
+├── blog/
+└── podcast/
+```
+
+Only offer — don't create automatically. If the user says yes, create the folders.
 
 ---
 
