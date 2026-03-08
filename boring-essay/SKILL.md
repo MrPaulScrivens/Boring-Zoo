@@ -187,7 +187,7 @@ Present the essay to the user. Don't explain what you did or why. The essay shou
 
 After presenting the essay, save it automatically:
 
-1. **Location:** `Content/Essays/` in the current working directory. Create the directory if it doesn't exist.
+1. **Location:** `content/essays/` in the current working directory. Create the directory if it doesn't exist.
 2. **Filename:** Use a kebab-case version of the essay's core claim or topic. Example: `the-compounding-myth.md`. Keep it short (3-5 words max).
 3. **File contents:** The essay text only. No metadata, no frontmatter, no explanation.
 4. Tell the user where you saved it.

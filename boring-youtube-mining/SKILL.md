@@ -53,13 +53,13 @@ Try to read these files silently:
 
 ## Step 1: Load Channel List
 
-Read `world-code/youtube-channels.md`.
+Read `settings/youtube-channels.md`.
 
 **If the file doesn't exist**, create it with starter content and tell the user:
 
-> I created `world-code/youtube-channels.md` with some example channels. Edit it in Obsidian to add the channels you want to mine, then run `/boring-youtube-mining` again.
+> I created `settings/youtube-channels.md` with some example channels. Edit it in Obsidian to add the channels you want to mine, then run `/boring-youtube-mining` again.
 
-Starter content for `world-code/youtube-channels.md`:
+Starter content for `settings/youtube-channels.md`:
 
 ```markdown
 # YouTube Channels
@@ -106,7 +106,7 @@ Ask the user:
 
 **If a channel handle fails to resolve**, report it and continue with the remaining channels:
 
-> Could not fetch videos from @BadHandle — check the handle in `youtube-channels.md`.
+> Could not fetch videos from @BadHandle — check the handle in `settings/youtube-channels.md`.
 
 ---
 
@@ -228,7 +228,7 @@ Group 3 still gets listed but flagged. The user decides if it's worth pursuing.
 
 ## Step 5: Save Output
 
-Write the output file to `Content Ideas/YouTube Mining {YYYY-MM-DD}.md`:
+Write the output file to `content-ideas/youtube-mining-{YYYY-MM-DD}.md`:
 
 ```markdown
 ---
@@ -288,7 +288,7 @@ ideas_generated: {count}
 
 After saving, tell the user:
 
-> Saved {X} ideas to `Content Ideas/YouTube Mining {date}.md`.
+> Saved {X} ideas to `content-ideas/youtube-mining-{date}.md`.
 >
 > {count} ideas with strong Bridge connections, {count} without.
 >
