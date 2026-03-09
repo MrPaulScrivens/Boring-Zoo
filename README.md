@@ -44,36 +44,16 @@ Once your World Code exists, every other skill uses it automatically.
 |-------|-------------|
 | `boring-copywriting` | Marketing copy that sounds like you |
 | `boring-copy-editing` | Edit existing copy against your voice rules |
+| `boring-essay` | Essays and micro-essays in your voice |
 | `boring-content-strategy` | Plan content around your themes and audience |
-| `boring-social-content` | Social posts with your hooks and pillars |
-| `boring-seo-article` | SEO articles from research to final draft |
 | `boring-human` | Strip AI patterns from any text |
-| `boring-remix` | Turn existing content into new formats |
 | `boring-youtube-mining` | Mine YouTube transcripts for content ideas |
-
-### Convert Better
-
-| Skill | What it does |
-|-------|-------------|
-| `boring-page-cro` | Optimize pages against your Climax and Crossing |
-| `boring-onboarding-cro` | Post-signup activation flows |
-
-### Get Found
-
-| Skill | What it does |
-|-------|-------------|
-| `boring-ai-seo` | Optimize for AI search and LLM citations |
-| `boring-programmatic-seo` | SEO pages at scale |
-| `boring-schema-markup` | Structured data and schema markup |
-| `boring-seo-audit` | Diagnose SEO issues |
-| `boring-site-architecture` | URL structure, nav, internal linking |
 
 ### Grow
 
 | Skill | What it does |
 |-------|-------------|
-| `boring-launch-strategy` | Product launches |
-| `boring-email-sequence` | Lifecycle email campaigns |
+| `boring-email-sequence` | Story-driven email sequences using open loops |
 
 ## How It Works
 
