@@ -81,6 +81,10 @@ Every skill reads your `world-code/` directory. Your voice rules, your transform
 
 Change your World Code, and every skill adapts.
 
+## Acknowledgments
+
+The skills structure and reference format in this repo started from [marketingskills](https://github.com/coreyhaines31/marketingskills) by Corey Haines. Thanks for the foundation.
+
 ## License
 
 MIT
