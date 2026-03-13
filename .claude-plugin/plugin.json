@@ -5,6 +5,7 @@
   "description": "Claude Code skills that help you build a business around your worldview.",
   "skills": [
     { "name": "boring-ai-seo", "path": "./boring-ai-seo" },
+    { "name": "boring-offer-audit", "path": "./boring-offer-audit" },
     { "name": "boring-content-strategy", "path": "./boring-content-strategy" },
     { "name": "boring-copy-editing", "path": "./boring-copy-editing" },
     { "name": "boring-copywriting", "path": "./boring-copywriting" },
@@ -21,6 +22,7 @@
     { "name": "boring-seo-audit", "path": "./boring-seo-audit" },
     { "name": "boring-site-architecture", "path": "./boring-site-architecture" },
     { "name": "boring-social-content", "path": "./boring-social-content" },
+    { "name": "boring-threads", "path": "./boring-threads" },
     { "name": "world-climax", "path": "./world-climax" },
     { "name": "world-code-start", "path": "./world-code-start" },
     { "name": "world-conversation", "path": "./world-conversation" },

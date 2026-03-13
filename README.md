@@ -49,11 +49,18 @@ Once your World Code exists, every other skill uses it automatically.
 | `boring-human` | Strip AI patterns from any text |
 | `boring-youtube-mining` | Mine YouTube transcripts for content ideas |
 
+### Evaluate
+
+| Skill | What it does |
+|-------|-------------|
+| `boring-offer-audit` | Stress-test any offer idea against your World Code |
+
 ### Grow
 
 | Skill | What it does |
 |-------|-------------|
 | `boring-email-sequence` | Story-driven email sequences using open loops |
+| `boring-threads` | Threads posts, multi-post threads, and micro-essays in your voice |
 
 ## How It Works
 
